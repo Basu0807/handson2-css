@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+    border: 10px groove lightgreen;
+    background-image: url(./background.avif);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+
+.upperpart{
+
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+    .box{
+    background-color: black;
+    border: 6px solid red;
+    color: white;
+    border-radius: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.firstbox{
+    margin: 20px;
+    padding: 20px;
+    height: 150px;
+    width: 380px;
+}
+
+.secondbox{
+    height: 100px;
+    width: 500px ;    
+    margin-left: -170px;
+    padding: 40px 5px 2px 20px;
+    margin-top: 30px;
+    text-align: center;
+    }
+
+.thirdbox{
+    padding: 20px 50px 2px 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.middlepart{
+    display: flex;
+
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    border: 8px solid rgb(110 105 105);
+    background-color: rgb(78 178 163);
+    border-radius: 50%;
+    text-align:center;
+    padding: 60px 0px 20px 0px;
+    font-weight:bolder;
+    font-style: italic;
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: 17px;
+    text-decoration: underline;
+}
+form{
+    border: 10px dashed red ;
+    margin-left: 200px;
+    margin-top: 50px;
+    text-align: center;
+    color: tomato;
+    padding: 20px;
+
+}
+.formheading{
+    font-size: 30px;
+
+}
+
+.menubox{
+    text-align: center;
+    width: 450px;
+    padding: 20px;
+    margin: 30px 0px 10px 400px;
+}
+.lowerpart{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    justify-content:space-evenly;
+    
+    
+    
+    
+
+}
+.menu{
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+    width: 315px;
+    height: 250px;
+    border-radius: 35px;
+    color: blue;
+    font-weight: bold;
+    border: 3px solid green;
+    /* margin: 30px; */
+    /* margin-bottom: 100px; */
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.menu6{
+    height: 300px;
+}
